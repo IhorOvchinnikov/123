@@ -107,7 +107,7 @@ Open login page
     Open browser        ${LOGIN URL}        ${BROWSER}
     Title Should be     Scouts panel - sign in
 Type in email
-    Input Text      ${EMAILINPUT}       user01@getnada.com
+    Input Text      ${EMAILINPUT}       user07@getnada.com
 Type in password
     Input Text      ${PASSWORDINPUT}        Test-1234
 Click the sign in button
