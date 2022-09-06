@@ -148,9 +148,9 @@ Assert add player page
     title should be     Add player
     Capture Page Screenshot     alert.png
 Fill in player data
-    Input Text      ${PLAYER NAME FIELD}        Ivan
-    Input Text      ${PLAYER SURNAME FIELD}     Ivanenko
-    Input Text      ${PLAYER AGE FIELD}         12.12.2022
+    Input Text      ${PLAYER NAME FIELD}        Ihor
+    Input Text      ${PLAYER SURNAME FIELD}     Ovchinnikov
+    Input Text      ${PLAYER AGE FIELD}         17.08.1981
     Input Text      ${PLAYER MAIN POSITION FIELD}   goalkeeper
 
 Click add player submit button
